@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+            android:background="@color/page_bottom_color">
+	<LinearLayout android:layout_width = "match_parent"
+	              android:layout_height = "match_parent"
+	              android:orientation="vertical"
+	android:background="@android:color/white">
+	<include layout="@layout/nav_user_header_layout"/>
+	<View android:layout_width = "match_parent"
+	      android:layout_height = "@dimen/dimen_line"
+	      android:background="@color/view_gray"/>
+
+
+		<LinearLayout android:layout_width = "match_parent"
+		              android:layout_height = "wrap_content"
+		android:paddingBottom="@dimen/dimen_15dp">
+			<!--最近学习-->
+			<LinearLayout android:layout_width = "0dp"
+			              android:layout_weight="1"
+			              android:layout_height = "wrap_content"
+			android:orientation="vertical"
+			              android:layout_marginTop="@dimen/dimen_15dp">
+				<android.support.v7.widget.AppCompatImageView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+				android:src="@drawable/ic_recent_learning"
+						android:layout_gravity = "center"/>
+				<TextView
+						android:layout_width = "wrap_content"
+				          android:layout_height = "wrap_content"
+				        android:layout_marginTop="@dimen/dimen_5dp"
+						android:layout_gravity = "center"
+				android:text="@string/str_recent_learning"
+						android:textColor="@color/txt_blank"
+						android:textSize="13sp"/>
+			</LinearLayout>
+
+			<!--我的收藏-->
+			<LinearLayout android:layout_width = "0dp"
+			              android:layout_weight="1"
+			              android:layout_height = "wrap_content"
+			              android:orientation="vertical"
+			              android:layout_marginTop="@dimen/dimen_15dp">
+				<android.support.v7.widget.AppCompatImageView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:src="@drawable/ic_user_collect"
+						android:layout_gravity = "center"/>
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text="@string/str_user_collect"
+						android:layout_marginTop="@dimen/dimen_5dp"
+						android:layout_gravity = "center"
+						android:textColor="@color/txt_blank"
+						android:textSize="13sp"/>
+			</LinearLayout>
+			<!--我的实战-->
+			<LinearLayout android:layout_width = "0dp"
+			              android:layout_weight="1"
+			              android:layout_height = "wrap_content"
+			              android:orientation="vertical"
+			              android:layout_marginTop="@dimen/dimen_15dp">
+				<android.support.v7.widget.AppCompatImageView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:src="@drawable/ic_actual_combat"
+						android:layout_gravity = "center"/>
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text="@string/str_user_actual_combat"
+						android:layout_marginTop="@dimen/dimen_5dp"
+						android:layout_gravity = "center"
+						android:textColor="@color/txt_blank"
+						android:textSize="13sp"/>
+			</LinearLayout>
+			<!--我的路线-->
+			<LinearLayout android:layout_width = "0dp"
+			              android:layout_weight="1"
+			              android:layout_height = "wrap_content"
+			              android:orientation="vertical"
+			              android:layout_marginTop="@dimen/dimen_15dp">
+				<android.support.v7.widget.AppCompatImageView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:src="@drawable/ic_user_route"
+						android:layout_gravity = "center"/>
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text="@string/str_user_route"
+						android:layout_marginTop="@dimen/dimen_5dp"
+						android:layout_gravity = "center"
+				android:textColor="@color/txt_blank"
+				android:textSize="13sp"/>
+			</LinearLayout>
+	</LinearLayout>
+		<View android:layout_width = "match_parent" android:layout_height = "@dimen/dimen_10dp"
+	          android:background="@color/page_bottom_color"/>
+		<include layout="@layout/nav_user_item1"/>
+		<View android:layout_width = "match_parent"
+		      android:layout_height = "@dimen/dimen_10dp"
+		      android:background="@color/page_bottom_color"/>
+		<include layout="@layout/nav_user_item2"/>
+
+		<View android:layout_width = "match_parent"
+		      android:layout_height = "@dimen/dimen_10dp"
+		      android:background="@color/page_bottom_color"/>
+
+		<!--设置-->
+
+		<LinearLayout android:layout_width = "match_parent"
+		              android:layout_height = "wrap_content"
+		              android:orientation="horizontal"
+		              android:gravity="center_vertical"
+		              android:paddingTop="@dimen/dimen_10dp"
+		              android:paddingBottom="@dimen/dimen_10dp"
+		android:layout_marginLeft="@dimen/dimen_18dp">
+			<android.support.v7.widget.AppCompatImageView
+					android:layout_width = "wrap_content"
+					android:layout_height = "wrap_content"
+					android:src="@drawable/ic_settings"
+					android:layout_marginRight="@dimen/dimen_15dp"/>
+			<TextView
+					android:layout_width = "wrap_content"
+					android:layout_height = "wrap_content"
+					android:text="@string/str_settings"
+					android:textSize="@dimen/dimen_14sp"
+					android:textColor="@color/txt_blank"
+					android:gravity="center"/>
+		</LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android">
+	<item
+			android:id="@+id/navigation_home"
+			android:icon="@drawable/ic_index_homepage"
+			android:title="@string/home_page" />
+
+	<item
+			android:id="@+id/navigation_find"
+			android:icon="@drawable/ic_index_find"
+			android:title="@string/str_index_find" />
+
+	<item
+			android:id="@+id/navigation_download"
+			android:icon="@drawable/ic_index_download"
+			android:title="@string/str_index_download"/>
+
+	<item
+			android:id="@+id/navigation_user"
+			android:icon="@drawable/ic_index_user"
+			android:title="@string/str_index_user"/>
+</menu>

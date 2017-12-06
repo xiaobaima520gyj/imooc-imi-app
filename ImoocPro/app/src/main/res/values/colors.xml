@@ -3,4 +3,11 @@
 	<color name = "colorPrimary">#3F51B5</color>
 	<color name = "colorPrimaryDark">#303F9F</color>
 	<color name = "colorAccent">#FF4081</color>
+	<color name = "colorRedprimary">#e84e40</color>
+	<color name = "colorRedprimaryDark">#e51c23</color>
+	<color name = "page_bottom_color">#f9f9f9</color>
+	<color name = "txt_blank">#333333</color>
+	<color name = "txt_gray1">#666666</color>
+	<color name = "txt_gray2">#999999</color>
+	<color name = "view_gray">#dddddd</color>
 </resources>

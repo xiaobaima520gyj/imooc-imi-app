@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:orientation = "vertical"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+              android:layout_marginLeft="@dimen/dimen_18dp">
+	<!--我的手记-->
+	<LinearLayout android:layout_width = "match_parent"
+	              android:layout_height = "wrap_content"
+	              android:orientation="horizontal"
+	              android:gravity="center_vertical"
+	              android:paddingTop="@dimen/dimen_15dp"
+	              android:paddingBottom="@dimen/dimen_15dp">
+		<android.support.v7.widget.AppCompatImageView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:src="@drawable/ic_mynotes"
+				android:layout_marginRight="@dimen/dimen_15dp"/>
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text="@string/str_mynotes"
+				android:textSize="@dimen/dimen_14sp"
+				android:textColor="@color/txt_blank"
+				android:gravity="center"/>
+	</LinearLayout>
+	<View android:layout_width = "match_parent" android:layout_height = "@dimen/dimen_line"
+	      android:background="@color/view_gray"
+	      android:layout_marginLeft="@dimen/dimen_40dp"/>
+
+	<!--我的猿问-->
+	<LinearLayout android:layout_width = "match_parent"
+	              android:layout_height = "wrap_content"
+	              android:orientation="horizontal"
+	              android:gravity="center_vertical"
+	              android:paddingTop="@dimen/dimen_15dp"
+	              android:paddingBottom="@dimen/dimen_15dp">
+		<android.support.v7.widget.AppCompatImageView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:src="@drawable/ic_myask"
+				android:layout_marginRight="@dimen/dimen_15dp"/>
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text="@string/str_myask"
+				android:textSize="@dimen/dimen_14sp"
+				android:textColor="@color/txt_blank"
+				android:gravity="center"/>
+	</LinearLayout>
+	<View android:layout_width = "match_parent" android:layout_height = "@dimen/dimen_line"
+	      android:background="@color/view_gray"
+	      android:layout_marginLeft="@dimen/dimen_40dp"/>
+	<!--我的课表-->
+	<LinearLayout android:layout_width = "match_parent"
+	              android:layout_height = "wrap_content"
+	              android:orientation="horizontal"
+	              android:gravity="center_vertical"
+	              android:paddingTop="@dimen/dimen_15dp"
+	              android:paddingBottom="@dimen/dimen_15dp">
+		<android.support.v7.widget.AppCompatImageView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:src="@drawable/ic_schedule"
+				android:layout_marginRight="@dimen/dimen_15dp"/>
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text="@string/str_schedule"
+				android:textSize="@dimen/dimen_14sp"
+				android:textColor="@color/txt_blank"
+				android:gravity="center"/>
+	</LinearLayout>
+</LinearLayout>
